@@ -1,5 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	let something = 'hello';
+</script>
 
-<p>Does this work?</p>
-<h1> ?????!!!! </h1>
+<div>
+	<h1>Welcome to SvelteKit</h1>
+	<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+	<p>Does this work?</p>
+	<h1>
+		{something} world
+	</h1>
+  <p>Something new or more</p>
+</div>
